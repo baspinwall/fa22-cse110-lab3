@@ -1,0 +1,95 @@
+/* style sheet*/
+
+* {
+    background-color: white;
+    padding: 1px;
+}
+p {
+    color: hsl(1000,30,30);
+    background-color: orange;
+    font-size: 1ex;
+    width: 200pt;
+    padding-top: 100px;
+    display:inline-block;
+    position:absolute;
+}
+.class1 {
+    margin-top: 2cm;
+    font-size: 1em;
+    width: 200px;
+}
+#id1 {
+    margin: 1in;
+    font-size: 1ch;
+    width: 20pc;
+}
+a[href="https://canvas.ucsd.edu/courses/39754/assignments"],
+p:hover {
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-decoration:line-through;
+    text-align:center;
+    display:block;
+    position:sticky;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+nav > ul {
+    background-color: blueviolet;
+    border-top: 1px;
+    border-style:dashed;
+    border-color: green;
+    border-width: 10px;
+    border-radius: 3px;
+}
+ol li {
+    background-color: bisque;
+    margin: auto;
+}
+b ~ strong {
+    background-color: burlywood;
+    height: 10px;
+}
+b + i {
+    background-color: crimson;
+    width: 10px;
+}
+em.class2 {
+    background-color: chartreuse;
+    max-width: 10px;
+    min-width: 1px;
+}
+a:active {
+    color:black;
+}
+
+@media screen and (min-width: 1cm) {
+    p {
+        background-color: blue;
+    }
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border: 1px solid red;
+    height: 100px;
+}
+
+.flexbox > div {
+    border: 1px solid blue;
+}
+
+.grid {
+    display: grid;
+    grid-row: span;
+    grid-area: auto;
+    -ms-grid-column-align: center;
+    border: 1px solid red;
+    height: 100px;
+}
+
+.grid > div {
+    border: 1px solid blue;
+}
