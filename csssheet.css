@@ -33,6 +33,7 @@ p:hover {
     position:sticky;
     font-family: 'Fuzzy Bubbles', cursive;
 }
+
 nav > ul {
     background-color: blueviolet;
     border-top: 1px;
